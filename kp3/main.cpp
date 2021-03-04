@@ -4,28 +4,30 @@
 using namespace std;
 
 
- struct List
+ struct Node
 {
    int Data;
-   List *Next;
+   Node *Next;
  };
 
+ struct List
+ {
+     int *Node;
+ };
 
 double myFunction(double x){
     return pow(cos(x), 2);
 }
 
-
-int main() {
+double append(List* list, Node* node){
     double  Item, minValue = 0, maxValue = M_PI / 4, step = M_PI / 40;
-
-    List *Current;
-    List *first;
+    Node *Current;
+    Node *first = new Node;
     first = NULL;
 
     Item = myFunction(minValue);
 
-    List *NewItem = new List;
+    Node *NewItem = new Node;
     NewItem -> Data = Item;
     NewItem -> Next = NULL;
     (*first) = *NewItem;
@@ -33,7 +35,7 @@ int main() {
     minValue += step;
 
     for (int i = minValue; i <= maxValue; i += step) {
-        List *NewItem = new List;
+        Node *NewItem = new Node;
         Item = myFunction(minValue);
         NewItem -> Data = Item;
         NewItem -> Next = NULL;
@@ -42,12 +44,10 @@ int main() {
             Current = Current -> Next;
         Current->Next = NewItem;
     }
+}
 
 
-    do{
-        cout << first -> Data << " ";
-        first = first -> Next;
-    }while(first != NULL);
-     cout << endl;
+int main() {
+
     return 0;
 }
