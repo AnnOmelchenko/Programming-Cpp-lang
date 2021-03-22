@@ -1,3 +1,0 @@
-/home/annome/CLionProjects/kp3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/annome/CLionProjects/kp3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/annome/CLionProjects/kp3/cmake-build-debug/CMakeFiles/kp3.dir
