@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/KP4__.dir/main.cpp.o -o KP4__ 
