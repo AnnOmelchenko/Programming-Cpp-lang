@@ -1,0 +1,3 @@
+/home/annome/Downloads/Telegram Desktop/kp9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/annome/Downloads/Telegram Desktop/kp9/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/annome/Downloads/Telegram Desktop/kp9/cmake-build-debug/CMakeFiles/kp9.dir

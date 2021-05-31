@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/kp6.dir/main.cpp.o -o kp6 

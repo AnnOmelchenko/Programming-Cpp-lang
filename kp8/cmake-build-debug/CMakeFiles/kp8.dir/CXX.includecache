@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/annome/Downloads/Telegram Desktop/kp8/main.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+queue
+-
+stack
+-
+

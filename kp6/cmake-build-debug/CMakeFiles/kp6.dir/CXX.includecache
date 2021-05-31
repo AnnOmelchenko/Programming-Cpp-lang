@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/annome/CLionProjects/kp6/Btree.h
+
+/home/annome/CLionProjects/kp6/main.cpp
+iostream
+-
+string.h
+/home/annome/CLionProjects/kp6/string.h
+Btree.h
+/home/annome/CLionProjects/kp6/Btree.h
+
